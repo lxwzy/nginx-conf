@@ -1,8 +1,10 @@
 # Nginx 配置
+一些Nignx配置集合
 ## 安装
-为确保更新，请使用Nginx官方提供的#[Pre-Built Packages for Stable version](https://nginx.org/en/linux_packages.html#stable)
-如访问性能不良可以使用#[apt-mirror](https://apt-mirror.github.io/),或使用#[搜狐源](http://mirrors.sohu.com/nginx/)
+推荐使用Nginx官方提供的[Pre-Built Packages for Stable version](https://nginx.org/en/linux_packages.html#stable)
+如访问性能不良可以使用[apt-mirror](https://apt-mirror.github.io/),或使用[搜狐源](http://mirrors.sohu.com/nginx/)
 ## 配置
+通过certbot获取Let’s Encrypt证书，需要另外配置
 - `varthing.conf` 基础性变量!使用前请确认
 - `nginx.conf` Nginx主配置文件
 - `base.conf` http下面的安全&性能优化
