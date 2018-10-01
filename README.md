@@ -2,7 +2,8 @@
 一些Nignx配置集合
 ## 安装
 推荐使用Nginx官方提供的[Pre-Built Packages for Stable version](https://nginx.org/en/linux_packages.html#stable)
-如访问性能不良可以使用[apt-mirror](https://apt-mirror.github.io/),或使用[搜狐源](http://mirrors.sohu.com/nginx/)
+
+如访问性能不良可以使用[apt-mirror](https://apt-mirror.github.io/)。
 ## 配置
 通过certbot获取Let’s Encrypt证书，需要另外配置
 - `nginx.conf` Nginx主配置文件
